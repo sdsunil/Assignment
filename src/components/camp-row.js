@@ -67,7 +67,7 @@ export default function CampaignRow(props) {
                 </div>
                 <div className='table-row-set row-schedule' onClick={() => datePopSetValue(true)}>
                     <img className="pos-abso row-img-small" src={'/images/calendar.png'} alt='price' />
-                    <span className='pos-abso row-font-size-colour row-text-top row-report'>{t('Schedule Again')}</span>
+                    <span style={{cursor:"pointer"}} className='pos-abso row-font-size-colour row-text-top row-report'>{t('Schedule Again')}</span>
                 </div>
                 <div className="bottom-line"></div>
             </div>
